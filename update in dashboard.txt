@@ -1,0 +1,61 @@
+//update in dashboard
+{
+  "name": "Dr. Aarti Mehta",
+  "email": "aarti.mehta@college.edu",
+  "password": "StrongPass#2025",
+  "confirmPassword": "StrongPass#2025",
+  "phoneNumber": "9123456789",
+  "department": "Computer Science",
+  "location": "Pune"
+}
+
+
+
+{
+  "name": "Rajesh Kulkarni",
+  "email": "rajesh@gmail.com",
+  "password": "AlumniPass#2025",
+  "confirmPassword": "AlumniPass#2025",
+  "phoneNumber": "9876543210",
+  "prn": "CDAC2017PRN0987",
+  "certificateId": "CERT2023-ALM456",
+  "domain": "Full Stack Development",
+  "batchYear": "2017",
+  "currentCompany": "TCS",
+  "location": "Bangalore"
+}
+
+{
+  "name": "Jay Rane",
+  "email": "jay.rane@example.com",
+  "password": "SecurePass123!",
+  "confirmPassword": "SecurePass123!",
+  "phoneNumber": "9876543210",
+  "prn": "2233445566",
+  "branch": "Computer Engineering",
+  "location": "Mumbai"
+}
+
+
+//update in admin dashboard
+{
+  "userId": 1,
+  "email": "jay.rane@example.com",
+  "studentId": 1,
+  "name": "Jay Prakash Rane",
+  "password": "SecurePass123!",
+  "prn": "2233445566"
+}
+
+
+
+{
+  "id": 1,
+  "created_at": "2025-08-07T08:56:00+05:30",
+  "email": "admin@collabnest.com",
+  "is_verified": true,
+  "name": "Super Admin",
+  "password": "$2a$10$wH8v0nTQZx1hQW5d8F3y3OQwzKf8bQw1y7bQ1y7bQ1y7bQ1y7bQ1y",    -- bcrypt for 'Admin@123'
+  "phone": "9999999999",
+  "updated_at": "2025-08-07T08:56:00+05:30"
+}

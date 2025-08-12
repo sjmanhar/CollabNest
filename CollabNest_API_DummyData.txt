@@ -1,0 +1,154 @@
+# CollabNest API Dummy Data & Endpoints
+
+---
+
+## 1. Faculty Registration
+**POST** `/api/auth/register/faculty`
+```json
+{
+  "name": "Test Faculty 2",
+  "email": "faculty2@example.com",
+  "password": "Password@123",
+  "confirmPassword": "Password@123",
+  "phoneNumber": "9876543222",
+  "department": "Electronics",
+  "location": "Mumbai"
+}
+```
+
+---
+
+## 2. Faculty Login
+**POST** `/api/auth/login`
+```json
+{
+  "email": "faculty2@example.com",
+  "password": "Password@123"
+}
+```
+
+---
+
+## 3. Update Faculty Profile
+**PUT** `/api/faculty/profile/{userId}`
+```json
+{
+  "name": "Dr. Test Faculty 2",
+  "department": "Electronics & Communication",
+  "location": "Mumbai",
+  "email": "faculty2@example.com",
+  "contactNo": "9876543222",
+  "dob": "1982-05-15"
+}
+```
+
+---
+
+## 4. Create Job Openings (Faculty)
+**POST** `/api/jobs/faculty/{facultyId}`
+
+### Example 1
+```json
+{
+  "title": "Assistant Professor",
+  "description": "Teach undergraduate courses in Electronics. Mentor students and assist with curriculum development.",
+  "location": "Mumbai",
+  "company": "XYZ University",
+  "salary": 80000
+}
+```
+
+### Example 2
+```json
+{
+  "title": "Research Associate",
+  "description": "Assist in research projects related to AI and Machine Learning. Publish papers and coordinate with faculty.",
+  "location": "Delhi",
+  "company": "ABC Institute of Technology",
+  "salary": 60000
+}
+```
+
+### Example 3
+```json
+{
+  "title": "Lab Technician",
+  "description": "Maintain and operate mechanical engineering laboratory equipment. Support faculty during lab sessions.",
+  "location": "Pune",
+  "company": "PQR Engineering College",
+  "salary": 40000
+}
+```
+
+### Example 4
+```json
+{
+  "title": "Placement Coordinator",
+  "description": "Coordinate campus placement activities. Liaise with companies and prepare students for interviews.",
+  "location": "Bangalore",
+  "company": "LMN University",
+  "salary": 70000
+}
+```
+
+### Example 5
+```json
+{
+  "title": "Visiting Lecturer",
+  "description": "Deliver lectures in advanced mathematics topics for undergraduate students. Short-term contract.",
+  "location": "Chennai",
+  "company": "DEF Science College",
+  "salary": 50000
+}
+```
+
+---
+
+## 5. List All Job Openings (Public)
+**GET** `/api/jobs`
+
+---
+
+## 6. List Job Openings by Faculty
+**GET** `/api/jobs/faculty/{facultyId}`
+
+---
+
+## 7. (Optional) Update Faculty Profile Image
+**POST** `/api/faculty/profile/{userId}/image`
+- Form field: `image` (file, JPEG/PNG, max 2MB)
+
+---
+
+## 8. (Optional) Student/Alumni Registration & Login
+- Similar to faculty, use `/api/auth/register/student` and `/api/auth/register/alumni`.
+
+---
+
+## 9. (Optional) Create Event (Faculty)
+**POST** `/api/events/faculty/{facultyId}`
+```json
+{
+  "name": "Tech Symposium 2025",
+  "poster": "https://example.com/poster.jpg",
+  "dateTime": "2025-09-15T10:00:00",
+  "location": "Auditorium",
+  "description": "Annual technical symposium for students and alumni.",
+  "price": 100,
+  "audience": "open"
+}
+```
+
+---
+
+## 10. List All Events (Public)
+**GET** `/api/events`
+
+---
+
+## 11. List Events by Faculty
+**GET** `/api/events/faculty/{facultyId}`
+
+---
+
+**Note:** Replace `{userId}` and `{facultyId}` with actual IDs from your registered users.

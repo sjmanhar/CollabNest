@@ -1,0 +1,38 @@
+//alumni
+{
+  "name": "Rajesh Kulkarni",
+  "email": "rajesh.kulkarni@alumni.edu",
+  "password": "AlumniPass#2025",
+  "confirmPassword": "AlumniPass#2025",
+  "phoneNumber": "9876543210",
+  "prn": "CDAC2017PRN0987",
+  "certificateId": "CERT2023-ALM456",
+  "domain": "Full Stack Development",
+  "batchYear": "2017",
+  "currentCompany": "TCS",
+  "location": "Bangalore"
+}
+
+//fac
+{
+  "name": "Dr. Aarti Mehta",
+  "email": "aarti.mehta@college.edu",
+  "password": "StrongPass#2025",
+  "confirmPassword": "StrongPass#2025",
+  "phoneNumber": "9123456789",
+  "department": "Computer Science",
+  "location": "Pune"
+}
+
+//student
+{
+  "name": "Jay Rane",
+  "email": "jay.rane@example.com",
+  "password": "SecurePass123!",
+  "confirmPassword": "SecurePass123!",
+  "phoneNumber": "9876543210",
+  "prn": "2233445566",
+  "branch": "Computer Engineering",
+  "location": "Mumbai"
+}
+

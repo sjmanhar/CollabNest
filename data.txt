@@ -1,0 +1,21 @@
+{
+  "userId": 2,
+  "facultyId": 1001,
+  "name": "Dr. Aarti Mehta",
+  "email": "aarti.mehta@college.edu",
+  "department": "Computer Science",
+  "location": "Pune",
+  "phoneNumber": "9123456789"
+}
+
+
+{
+  "userId": 1,
+  "studentId": 101,
+  "name": "Jay Rane",
+  "email": "jay.rane@example.com",
+  "branch": "Computer Engineering",
+  "year": "2023",
+  "resumeUrl": "https://drive.google.com/jay-rane-resume",
+  "phoneNumber": "9876543210"
+}
